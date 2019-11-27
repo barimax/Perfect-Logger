@@ -8,7 +8,7 @@ let package = Package(
 		.library(name: "PerfectLogger", targets: ["PerfectLogger"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/PerfectlySoft/Perfect-CURL.git", from: "3.0.0"),
+		.package(url: "https://github.com/PerfectlySoft/Perfect-CURL.git", "4.0.0"..<"5.0.0"),
 	],
 	targets: [
 		.target(name: "PerfectLogger", dependencies: ["PerfectCURL"])
